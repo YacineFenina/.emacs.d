@@ -18,8 +18,11 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (load-theme 'zenburn t)
 
+
+(require 'evil)
+(evil-mode 1)
+
 (add-to-list 'load-path
               "~/.emacs.d/modules/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
-
