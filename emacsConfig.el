@@ -13,11 +13,13 @@
 
 (global-linum-mode 1)
 
-
 (package-initialize)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (load-theme 'zenburn t)
 
-
+(add-to-list 'load-path
+              "~/.emacs.d/modules/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
 
