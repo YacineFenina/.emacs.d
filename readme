@@ -1,2 +1,9 @@
-To install irony :
+- Theme préféré:
+zenburn-theme
+
+- Installer irony :
 https://github.com/martin-tornqvist/env/blob/master/how-to-setup-irony-mode.txt
+Bien suivre les installations nécessaires : clang libclang build-essential ...
+
+
+- Installer yasnippet
