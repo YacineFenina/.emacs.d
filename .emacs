@@ -1,0 +1,6 @@
+(setq custom-config "~/.emacs.d/emacsConfig.el")
+(setq custom-shortcut "~/.emacs.d/emacsConfig.el")
+(setq customCpp-config "~/.emacs.d/emacsCppConfig.el")
+(load custom-config)
+(load custom-shortcut)
+(load customCpp-config)
