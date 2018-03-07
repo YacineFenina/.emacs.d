@@ -1,10 +1,4 @@
-Fichier de configuration emacs de base (.emacs ~/.emacs):
-(setq custom-config "~/.emacs.d/emacsConfig.el")
-(setq custom-shortcuts "~/.emacs.d/emacsShortcuts.el")
-(setq customCpp-config "~/.emacs.d/emacsCppConfig.el")
-(load custom-config)
-(load custom-shortcuts)
-(load customCpp-config)
+Après clonage : Fichier de configuration emacs de base à placer dans le dossier parent : .emacs
 
 
 - Theme préféré:
